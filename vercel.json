@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/gunung_api.php", "destination": "/api/gunung_api" },
+    { "source": "/gunung_api.php/(.*)", "destination": "/api/gunung_api" }
+  ]
+}
